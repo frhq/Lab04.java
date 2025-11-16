@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Lab5  {
+   public static void main (String [] args )  {
+        Scanner input = new Scanner(System.in);
+     
+          System.out.print("Enter number 1: ");
+          int x = input.nextInt();
+
+          System.out.print("Enter number 2: ");
+          int y = input.nextInt();
+  
+          System.out.print("Enter number 3: ");
+          int z = input.nextInt();
+ 
+               if ( x == y && y == z && x == z) {
+                    System.out.print( "The number is 3 ");}
+               else if ( x == y && y!=z  ||  y==z && y!=z  ||  x==z && x!=y){
+                    System.out.print( "The number is 2");}
+               else if  (x != y && y != z && x != z){
+                    System.out.print("The number is 0");}
+   }
+} 
