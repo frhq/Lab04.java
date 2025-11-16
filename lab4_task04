@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Lab4  {
+   public static void main (String [] args )  {
+    Scanner input = new Scanner(System.in);
+
+         int a;
+         System.out.println("Enter the number:  ");
+         a = input.nextInt();
+         int b;
+         System.out.println("Enter the number : ");
+         b = input.nextInt();
+  
+              if (a > b) {
+                System.out.println("The smaller number is = " + b );}
+              else {
+                System.out.println("The smaller number is = "  + a );}
+   
+               System.out.println("Enter the number x: "); 
+               int x = input.nextInt();
+   
+               if (x > 0) 
+                   System.out.println(1);
+               if (x < 0 ) 
+                   System.out.println(-1);
+               if (x == 0) 
+                   System.out.print(0);
+ 
+                 int e,f,g;
+                 System.out.println("Enter first number: ");
+                 e = input.nextInt();
+                 System.out.println("Enter second number: ");
+                 f = input.nextInt();
+                 System.out.println("Enter third number: ");
+                 g = input.nextInt();
+
+                     if ( e > f && g > f )  {
+                         System.out.println("The smallest number is: " + f);  }
+                     else if ( f > e && g > e )  {
+                         System.out.println("The smallest number is: " + e); }
+                     else if  ( e > g && f > g )  {
+                         System.out.println("The smallest number is: " + g);  } 
+
+    }
+}
