@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Lab8  {
+    public static void main(String [] args) {
+       Scanner input = new Scanner(System.in);
+   
+             int month;
+             System.out.print("Enter the month: ");
+             month = input.nextInt();
+  
+             int day;
+             System.out.print("Enter the day: ");
+             day = input.nextInt();
+  
+             int year;
+             System.out.print("Enter the two-digit year: ");
+             year = input.nextInt();
+
+             if ( month * day == year )  {
+                System.out.print("\"Date is magic\"");}
+             else  {
+                System.out.print("\"Date is not magic\"");}
+   }
+}
