@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Lab1  {
+   public static void main(String [] args) {
+    Scanner input = new Scanner(System.in);
+    
+       int x = 10;
+       int y = 15;
+       int z = 20;
+   
+         boolean great =(! (x > 10));
+         System.out.println(" The value is " + great );
+    
+         boolean isEqual = ( x<= 5 || y < 15);
+         System.out.println("The value is " + isEqual);
+    
+         boolean isOf = ((x !=5) && (y != z ));
+         System.out.println("The value is " + isOf);
+    
+         boolean isNot = ((x >= z) || (x + y >= z));
+         System.out.println("The value is " + isNot);
+    
+         boolean isHop = ((x <= -2) && (y >= z) || (z - 2 != 20));
+         System.out.println("The value is " + isHop);
+   }
+}
